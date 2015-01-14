@@ -62,6 +62,9 @@ PLAYERS = [
 
     # Clementine, http://www.clementine-player.org/
     Player('Clementine', ['clementine', '--append']),
+    
+    # SMPlayer, http://smplayer.sourceforge.net/
+    FreeDesktopPlayer('SMPlayer', ['smplayer', '-add-to-playlist']),
 ]
 
 class gPodderExtension:
